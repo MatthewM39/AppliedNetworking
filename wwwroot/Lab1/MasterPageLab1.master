@@ -1,0 +1,39 @@
+﻿<%@ Master Language="VB" CodeFile="MasterPageLab1.master.vb" Inherits="Lab1_MasterPageLab1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+             
+        <table border="0">
+            <tr><td colspan="8" style="color:gold; background-color:darkblue; font-size:40px;" ><h1>Matthew's Applied Networking Assignments</h1></td></tr>
+            <tr style="background-color:gold;">
+                <td><a href="/Lab1/Lab1.aspx">Lab 1</a></td>
+                <td> <a href="/Lab2/Lab2.aspx">Lab 2</a></td>
+                <td><a href="/Lab3/Lab3.aspx">Lab 3</a></td>
+                <td><a href="/Lab4/Lab4.aspx">Lab 4</a></td>
+                <td> <a href="/Lab5/Lab5.aspx">Lab 5</a></td>
+                <td><a href="/Lab6/Lab6.aspx">Lab 6</a></td>
+                <td> <a href="/Lab7/Lab7.aspx">Lab7</a></td>
+                <td> <a href="/Lab8/Lab8.aspx">Lab 8</a></td>
+            </tr>
+        </table>
+            <a href="/Lab1/Problem1.aspx">Problem 1</a> <a href="/Lab1/Problem2.aspx">Problem 2</a> 
+            <a href="/Lab1/Problem4.aspx">Problem 4</a> <a href="/Lab1/Problem5.aspx">Problem 5</a> <a href="/Lab1/Problem6.aspx">Problem 6</a>
+        <a href="/Lab1/Problem7.aspx">Problem 7</a>
+                <hr />
+            <br />
+    <div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>
